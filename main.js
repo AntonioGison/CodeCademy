@@ -24,7 +24,7 @@ const quote = words.get('quote');
 const verb1 = words.get('verb-1');
 const num1 = words.get('num-1');
 const message = words.get('message');
-
+ 
 // The string containing HTML and text which will populate the story.html page
 const story = `<p>A <span class="word" title="id: animal-1">${firstAnimal}</span> was making fun of the <span class="word" title="id: animal-2">${secondAnimal}</span> one day for being so slow.</p>
 
