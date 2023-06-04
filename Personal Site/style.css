@@ -64,11 +64,11 @@
     justify-content: center;
     align-items: center;
     z-index: -2;
-    height: 500px;
-    width: 500px;
+    height: 50px;
+    width: 50px;
     position: relative;
-    left: 20em;
-    bottom: 35em;
+    left: 10%;
+    bottom: 50%;
   }
   
   
@@ -82,8 +82,8 @@
     position: absolute;
     top: 200px;
     left: 100px;
-    height: 200px;
-    width: 200px;
+    height: 8rem;
+    width: 8rem;
     
     animation: yellow 8s infinite ease;
   }
@@ -93,8 +93,8 @@
     position: absolute;
     top: 80px;
     right: -20px;
-    height: 200px;
-    width: 250px;
+    height: 8rem;
+    width: 8rem;
     
     animation: green 8s infinite ease;
   }
@@ -104,8 +104,8 @@
     position: absolute;
     right: 0;
     top: 300px;
-    height: 250px;
-    width: 200px;
+    height: 8rem;
+    width: 8rem;
     
     animation: red 8s infinite linear;
   }
@@ -145,16 +145,6 @@
     margin-left: 5%;
   }
 
-  .menu {
-    margin-right: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 3em;
-  }
-
-
     /* button */
   .buttons {
     display: flex;
@@ -182,6 +172,7 @@
   }
 
       /*  */
+
 
 .hero {
     display: flex;
@@ -227,8 +218,17 @@
 }
 
 
-@media only scree and (max-width: 600px) and (min-width: 400px) {
-  .circle{
-    display: none !important;
+@media only screen and (max-width: 1000px) {
+  span.circle{
+    display: none;
   }
+
+  .hero {
+    margin-right: 5%;
 }
+
+.blob-cont {
+ left: 0;
+}
+
+
