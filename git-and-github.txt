@@ -1,0 +1,24 @@
+git branch : to check which branch is
+
+git branch new_branch : to  create a new branch
+
+git checkout name_branch : this switch the current branch
+
+git add filename : to add files to the staging area
+
+git commit -m "Commit message"
+
+$git log : log all commits
+
+git merge skills :  if I wanted to merge the skills branch to master
+
+git branch -d branch_name :  is used to delete 
+
+git clone remote_location clone_name : is used to clone the remote repository, clone_name is the name you give
+                                         to the directory in which Git will clone the repository.
+
+git fetch : to fetch the remote changes
+
+git push <remote_name> <branch_name> : to push the changes to the remote repository
+
+git remote -v : display the list of remote repositories associated with your local Git repository.
